@@ -36,6 +36,10 @@
         <Name>Organizer</Name>
         <ReferencedMemberName>Organized</ReferencedMemberName>
       </AliasProperty>
+      <AliasProperty>
+        <Name>Output</Name>
+        <ReferencedMemberName>Organized</ReferencedMemberName>
+      </AliasProperty>
       <ScriptProperty>
         <Name>By</Name>
         <GetScriptBlock>
