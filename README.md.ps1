@@ -1,3 +1,4 @@
+@"
 
 # Organize
 
@@ -13,6 +14,9 @@ Quite literally, one [Group-Object](https://learn.microsoft.com/en-us/powershell
 
 In order to help us all organize more effeciently, here's a nice mini-module for multiple groups.
 
+"@
+
+@"
 
 ## Installing and Importing
 
@@ -36,6 +40,10 @@ cd ./Organize
 Import-Module ./ -PassThru
 ~~~
 
+"@
+
+
+@'
 
 ## Getting Organized
 
@@ -85,3 +93,4 @@ Because PowerShell's object pipeline can have any type of object,
 we can organize any objects any way we want.
 
 Enjoy!
+'@
