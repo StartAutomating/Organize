@@ -18,35 +18,35 @@
       </MemberSet>
       <AliasProperty>
         <Name>Group</Name>
-        <ReferencedMemberName>Organized</ReferencedMemberName>
+        <ReferencedMemberName>Output</ReferencedMemberName>
       </AliasProperty>
       <AliasProperty>
         <Name>Groups</Name>
-        <ReferencedMemberName>Organized</ReferencedMemberName>
+        <ReferencedMemberName>Output</ReferencedMemberName>
       </AliasProperty>
       <AliasProperty>
         <Name>Organise</Name>
-        <ReferencedMemberName>Organized</ReferencedMemberName>
+        <ReferencedMemberName>Output</ReferencedMemberName>
       </AliasProperty>
       <AliasProperty>
         <Name>Organised</Name>
-        <ReferencedMemberName>Organized</ReferencedMemberName>
+        <ReferencedMemberName>Output</ReferencedMemberName>
       </AliasProperty>
       <AliasProperty>
         <Name>Organiser</Name>
-        <ReferencedMemberName>Organized</ReferencedMemberName>
+        <ReferencedMemberName>Output</ReferencedMemberName>
       </AliasProperty>
       <AliasProperty>
         <Name>Organize</Name>
-        <ReferencedMemberName>Organized</ReferencedMemberName>
+        <ReferencedMemberName>Output</ReferencedMemberName>
+      </AliasProperty>
+      <AliasProperty>
+        <Name>Organized</Name>
+        <ReferencedMemberName>Output</ReferencedMemberName>
       </AliasProperty>
       <AliasProperty>
         <Name>Organizer</Name>
-        <ReferencedMemberName>Organized</ReferencedMemberName>
-      </AliasProperty>
-      <AliasProperty>
-        <Name>Output</Name>
-        <ReferencedMemberName>Organized</ReferencedMemberName>
+        <ReferencedMemberName>Output</ReferencedMemberName>
       </AliasProperty>
       <ScriptProperty>
         <Name>By</Name>
@@ -55,7 +55,7 @@
                     </GetScriptBlock>
         <SetScriptBlock>
                         $this | Add-Member NoteProperty '#by' $args -Force
-$this.PSObject.properties.Remove('#organized')
+$this.PSObject.properties.Remove('#output')
                     </SetScriptBlock>
       </ScriptProperty>
       <ScriptProperty>
@@ -65,14 +65,14 @@ $this.PSObject.properties.Remove('#organized')
                     </GetScriptBlock>
         <SetScriptBlock>
                         $this | Add-Member NoteProperty '#input' $args -Force
-$this.PSObject.properties.Remove('#organized')
+$this.PSObject.properties.Remove('#output')
                     </SetScriptBlock>
       </ScriptProperty>
       <ScriptProperty>
-        <Name>Organized</Name>
+        <Name>Output</Name>
         <GetScriptBlock>
-                        if ($this.'#Organized') {
-    return $this.'#Organized'
+                        if ($this.'#Output') {
+    return $this.'#Output'
 }
 
 # First, collect all of the input and arguments.
