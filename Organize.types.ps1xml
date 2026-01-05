@@ -11,7 +11,7 @@
             <ReferencedProperties>
               <Name>Input</Name>
               <Name>By</Name>
-              <Name>Organized</Name>
+              <Name>Output</Name>
             </ReferencedProperties>
           </PropertySet>
         </Members>
@@ -226,7 +226,7 @@ return $organized
         <Name>DefaultDisplay</Name>
         <Value>Input
 By
-Organized
+Output
 </Value>
       </NoteProperty>
     </Members>
