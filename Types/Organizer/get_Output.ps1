@@ -1,5 +1,5 @@
-if ($this.'#Organized') {
-    return $this.'#Organized'
+if ($this.'#Output') {
+    return $this.'#Output'
 }
 
 # First, collect all of the input and arguments.

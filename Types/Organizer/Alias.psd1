@@ -1,15 +1,15 @@
 @{
-    # Other word forms
-    Organizer = 'Organized'
-    Organize = 'Organized'
+    # Word forms
+    Organizer = 'Output'
+    Organize = 'Output'
+    Organized = 'Output'
 
-    # Anglican forms
-    Organiser = 'Organized' 
-    Organised = 'Organized' 
-    Organise = 'Organized'
-    
-    Output = 'Organized'
-
-    Group = 'Organized'
-    Groups = 'Organized'
+    # Anglican Word forms
+    Organiser = 'Output' 
+    Organised = 'Output'
+    Organise = 'Output'
+        
+    # Grouping and plural
+    Group = 'Output'
+    Groups = 'Output'
 }
