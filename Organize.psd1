@@ -60,7 +60,7 @@ Description = 'Get Organized - Fast Grouping by multiple conditions'
 # ScriptsToProcess = @()
 
 # Type files (.ps1xml) to be loaded when importing this module
-# TypesToProcess = @('Organize.types.ps1xml')
+TypesToProcess = @('Organize.types.ps1xml')
 
 # Format files (.ps1xml) to be loaded when importing this module
 # FormatsToProcess = @()
