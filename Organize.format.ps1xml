@@ -30,7 +30,7 @@
                 <PropertyName>By</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
-                <PropertyName>Organized</PropertyName>
+                <PropertyName>Output</PropertyName>
               </TableColumnItem>
             </TableColumnItems>
           </TableRowEntry>
@@ -53,7 +53,7 @@
                 <PropertyName>By</PropertyName>
               </ListItem>
               <ListItem>
-                <PropertyName>Organized</PropertyName>
+                <PropertyName>Output</PropertyName>
               </ListItem>
             </ListItems>
           </ListEntry>
