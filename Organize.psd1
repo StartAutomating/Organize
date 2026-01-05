@@ -30,7 +30,7 @@ CompanyName = 'Start Automating'
 Copyright = '2026 Start Automating'
 
 # Description of the functionality provided by this module
-Description = 'Get Organized - Fast Grouping by multiple conditions'
+Description = 'Organize objects any way you want - Fast PowerShell Grouping and Filtering'
 
 # Minimum version of the PowerShell engine required by this module
 # PowerShellVersion = ''
@@ -69,7 +69,7 @@ FormatsToProcess = @('Organize.format.ps1xml')
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = '*'
+FunctionsToExport = 'Get-Organized'
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = '*'
@@ -78,7 +78,28 @@ CmdletsToExport = '*'
 VariablesToExport = '*'
 
 # Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
-AliasesToExport = '*'
+AliasesToExport = 'Organize',
+        'Organized',
+        'Organizer',
+        
+        'Get-Organize',
+        'Get-Organizer',
+
+        'Group-Organize',
+        'Group-Organized',
+        'Group-Organizer',
+
+        'Organise',
+        'Organised',
+        'Organiser',
+
+        'Get-Organise',
+        'Get-Organised',
+        'Get-Organiser',
+
+        'Group-Organise',
+        'Group-Organised',
+        'Group-Organised'
 
 # DSC resources to export from this module
 # DscResourcesToExport = @()
@@ -95,13 +116,13 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        # Tags = @()
+        Tags = @('Organizer', 'Group')
 
         # A URL to the license for this module.
-        # LicenseUri = ''
+        LicenseUri = 'https://github.com/StartAutomating/Organize/blob/main/LICENSE'
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        ProjectUri = 'https://github.com/StartAutomating/Organize'
 
         # A URL to an icon representing this module.
         # IconUri = ''
