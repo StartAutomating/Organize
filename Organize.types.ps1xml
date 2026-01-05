@@ -16,6 +16,26 @@
           </PropertySet>
         </Members>
       </MemberSet>
+      <AliasProperty>
+        <Name>Organise</Name>
+        <ReferencedMemberName>Organized</ReferencedMemberName>
+      </AliasProperty>
+      <AliasProperty>
+        <Name>Organised</Name>
+        <ReferencedMemberName>Organized</ReferencedMemberName>
+      </AliasProperty>
+      <AliasProperty>
+        <Name>Organiser</Name>
+        <ReferencedMemberName>Organized</ReferencedMemberName>
+      </AliasProperty>
+      <AliasProperty>
+        <Name>Organize</Name>
+        <ReferencedMemberName>Organized</ReferencedMemberName>
+      </AliasProperty>
+      <AliasProperty>
+        <Name>Organizer</Name>
+        <ReferencedMemberName>Organized</ReferencedMemberName>
+      </AliasProperty>
       <ScriptProperty>
         <Name>By</Name>
         <GetScriptBlock>
