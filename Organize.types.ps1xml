@@ -3,6 +3,19 @@
   <Type>
     <Name>Organizer</Name>
     <Members>
+      <MemberSet>
+        <Name>PSStandardMembers</Name>
+        <Members>
+          <PropertySet>
+            <Name>DefaultDisplayPropertySet</Name>
+            <ReferencedProperties>
+              <Name>Input</Name>
+              <Name>By</Name>
+              <Name>Organized</Name>
+            </ReferencedProperties>
+          </PropertySet>
+        </Members>
+      </MemberSet>
       <ScriptProperty>
         <Name>By</Name>
         <GetScriptBlock>
@@ -177,6 +190,13 @@ $this | Add-Member NoteProperty '#Organized' $organized -Force
 return $organized
                     </GetScriptBlock>
       </ScriptProperty>
+      <NoteProperty>
+        <Name>DefaultDisplay</Name>
+        <Value>Input
+By
+Organized
+</Value>
+      </NoteProperty>
     </Members>
   </Type>
 </Types>
