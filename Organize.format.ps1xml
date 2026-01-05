@@ -22,7 +22,6 @@
         </TableHeaders>
         <TableRowEntries>
           <TableRowEntry>
-            <Wrap />
             <TableColumnItems>
               <TableColumnItem>
                 <PropertyName>Input</PropertyName>
