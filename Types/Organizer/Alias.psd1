@@ -6,5 +6,7 @@
     # Anglican forms
     Organiser = 'Organized' 
     Organised = 'Organized' 
-    Organise = 'Organized' 
+    Organise = 'Organized'
+    
+    Output = 'Organized'
 }
