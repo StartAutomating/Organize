@@ -9,4 +9,7 @@
     Organise = 'Organized'
     
     Output = 'Organized'
+
+    Group = 'Organized'
+    Groups = 'Organized'
 }
