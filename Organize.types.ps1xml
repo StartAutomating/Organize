@@ -4,6 +4,16 @@
     <Name>Organizer</Name>
     <Members>
       <ScriptProperty>
+        <Name>By</Name>
+        <GetScriptBlock>
+                        return $this.'#by'
+                    </GetScriptBlock>
+        <SetScriptBlock>
+                        $this | Add-Member NoteProperty '#by' $args -Force
+$this.PSObject.properties.Remove('#organized')
+                    </SetScriptBlock>
+      </ScriptProperty>
+      <ScriptProperty>
         <Name>Input</Name>
         <GetScriptBlock>
                         return $this.'#input'
