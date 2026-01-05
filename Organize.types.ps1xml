@@ -17,6 +17,14 @@
         </Members>
       </MemberSet>
       <AliasProperty>
+        <Name>Group</Name>
+        <ReferencedMemberName>Organized</ReferencedMemberName>
+      </AliasProperty>
+      <AliasProperty>
+        <Name>Groups</Name>
+        <ReferencedMemberName>Organized</ReferencedMemberName>
+      </AliasProperty>
+      <AliasProperty>
         <Name>Organise</Name>
         <ReferencedMemberName>Organized</ReferencedMemberName>
       </AliasProperty>
